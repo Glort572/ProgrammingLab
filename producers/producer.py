@@ -8,7 +8,7 @@ n=0;                                                        # Questa variabile v
 
 print('{} - {}'.format(my_list[n],our_tracks[n]))           # automazione (primo artista e prima traccia)
 print('{} - {}'.format(my_list[n+1],our_tracks[n+1]))       # automazione (secondo artista e seconda traccia)
-print('{} - {}'.format(my_list[n+2],our_tracks[n+2]))          # automazione (terzo artista e terza traccia)
+print('{} - {}'.format(my_list[n+2],our_tracks[n+2]))       # automazione (terzo artista e terza traccia)
 
 
 print('\n\n')
