@@ -19,6 +19,7 @@ except FileNotFoundError:
 
 somma = 0
 count = 0
+number = 0
 
 # Iterazione fino all'ultimo valore
 for line in file:
@@ -33,6 +34,11 @@ for line in file:
         date = list_els[0]
         val = list_els[1]
         
+        # Cambio le date in numeri (indice)
+        number = number + 1
+        list_els[0] = number
+        # print(list_els[0]) # DEBUG
+
         # Sommo ogni valore che trovo con il precedente (cambiandolo in float poiché è un carattere)
         try:
             floats.append(float(val))
